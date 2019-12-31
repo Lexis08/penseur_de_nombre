@@ -3,7 +3,7 @@ import random
 # score = essai
 essai = 0
 rejouer = ("oui")
-while rejouer != "non" :
+while rejouer != "non" or "n" :
     nombre_joueur = 0
     nombre = random.randint(1,99)
     # nombre = 46

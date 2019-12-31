@@ -21,7 +21,7 @@ while rejouer != "non" or "n" :
             else :
                 print("trop petit")
         elif nombre_joueur > nombre :
-            if (nombre - nombre_joueur) <= 0 :
+            if (nombre - nombre_joueur) >= -5 :
                 print ("tu refroidis")
             else :
                 print("trop grand")
